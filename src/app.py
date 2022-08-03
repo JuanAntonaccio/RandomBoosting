@@ -77,7 +77,7 @@ metricas_02 = metricas(y_test, prediccion_02)
 [print(i) for i in metricas_02]
 
 # Guardar modelo
-filename = '../models/modelo_boosting.sav'
+filename = '../models/modelo_boosting.pkl'
 pickle.dump(modelo_02, open(filename, 'wb'))
 
 print()
